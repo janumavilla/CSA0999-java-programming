@@ -1,4 +1,6 @@
+
 code even
+
 ![code even](https://github.com/janumavilla/CSA0999-java-programming/assets/112294762/f9b87b60-c170-4dae-a458-ab33a0cc34f4)
 
 code sum of digits
