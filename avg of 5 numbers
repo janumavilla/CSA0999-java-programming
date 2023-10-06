@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+class hello
+{
+public static void main(String args[])
+{
+int a=5,b=1,c=6,d=2,e=7,sum,avg;
+Scanner t=new scanner(System.in);
+sum=a+b+c+d+e;
+avg=sum/5;
+System.out.println("avg of 5 numbers is"+avg);
+}
+}
