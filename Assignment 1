@@ -22,7 +22,7 @@ SUM OF DIGITS:
 
 import java.io.*;
 import java.util.*;
-class number
+class java
 {
 public static void main(String args[])
 {
@@ -43,7 +43,7 @@ REVERSE A NUMBER
 
 import java.io.*;
 import java.util.*;
-class number
+class reversee
 {
 public static void main(String args[])
 {
@@ -65,7 +65,7 @@ PALINDROME
 
 import java.io.*;
 import java.util.*;
-class number
+class palindromee
 {
 public static void main(String args[])
 {
