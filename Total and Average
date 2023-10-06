@@ -1,0 +1,27 @@
+public static void main(String args[])
+{
+int r,m,n,p,q,a;
+float b;
+string c;
+Scanner t=new scanner(System.in);
+System.out.println("enter reg.no:");
+r=t.nextInt();
+System.out.println("enter name:");
+c=t.nextLine();
+System.out.println("enter sub 1 mark:");
+m=t.nextInt();
+System.out.println("enter sub 2 mark:");
+n=t.nextInt();
+System.out.println("enter sub 3 mark:");
+o=t.nextInt();
+System.out.println("enter sub 4 mark:");
+p=t.nextInt();
+System.out.println("enter sub 5 mark:");
+q=t.nextInt();
+a=(m+n+o+p+q);
+System.out.println("enter total marks:"+a);
+b=a/5;
+System.out.println("average is:"+b);
+}
+}
+
