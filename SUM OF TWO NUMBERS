@@ -1,0 +1,9 @@
+import java.io.*;
+class from
+{
+public static void main(String args[])
+{
+int x=10,y=5;
+System.out.println("sum of 2 no.s"+(x+y));
+}
+}
