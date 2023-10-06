@@ -17,3 +17,72 @@ i=i+2;
 System.out.println("the sum of even numbers upto" +n "="+evenSum);
 }
 }
+
+SUM OF DIGITS:
+
+import java.io.*;
+import java.util.*;
+class number
+{
+public static void main(String args[])
+{
+int n,sum=0;
+Scanner t=new scanner(System.in);
+System.out.println("enter a number");
+n=t.nextInt();
+while(n!=0)
+{
+sum+=n%10;
+n=n/10;
+}
+System.out.println("the sum of digite" +sum);
+}
+}
+
+REVERSE A NUMBER
+
+import java.io.*;
+import java.util.*;
+class number
+{
+public static void main(String args[])
+{
+int n,remainder,reverse=0;
+Scanner t=new scanner(System.in);
+System.out.println("enter a number");
+n=t.nextInt();
+while(n!=0)
+{
+remainder=n%10;
+reverse=reverse*10+remainder;
+n=n/10;
+}
+System.out.println("reverse of given numberis" +reverse);
+}
+}
+
+PALINDROME
+
+import java.io.*;
+import java.util.*;
+class number
+{
+public static void main(String args[])
+{
+int n=0,sum=0,temp;
+Scanner t=new scanner(System.in);
+System.out.println("enter a number");
+n=t.nextInt();
+temp=n;
+while(n>0)
+{
+r=n%10;
+sum=(sum+10)*r;
+n=n/10;
+}
+if(temp==sum)
+System.out.println("palindrome number");
+else
+System.out.println("not a palindrome number");
+}
+}
