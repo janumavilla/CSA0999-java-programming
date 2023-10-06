@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class number
+{
+public static void main(String args[])
+{
+int n;
+Scanner t=new scanner(System.in);
+System.out.println("enter a number");
+n=t.nextInt();
+if(n>=0) 
+System.out.println("positive"); 
+else
+System.out.println("negative"); 
+}   
+}
