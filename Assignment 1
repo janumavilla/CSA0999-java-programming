@@ -1,1 +1,19 @@
-
+even sum:
+import java.io.*;
+import java.util.*;
+class number
+{
+public static void main(String args[])
+{
+int n,i=2,evenSum=0;
+Scanner t=new scanner(System.in);
+System.out.println("enter a number");
+n=t.nextInt();
+while(i<=n)
+{
+evenSum=evenSum+i;
+i=i+2;
+}
+System.out.println("the sum of even numbers upto" +n "="+evenSum);
+}
+}
