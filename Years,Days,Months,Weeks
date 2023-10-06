@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class python
+{
+public static void main(String args[])
+{
+int year,month,week,day,n;
+Scanner t=new scanner(System.in);
+System.out.println("enter no. of days:");
+n=t.nextInt();
+year=n/365;
+n=n-(year*365);
+month=n/30;
+n=n-(30*month);
+week=n/7;
+n=n-(7*week);
+day=n;
+System.out.println("years:"+year);
+System.out.println("months:"+month);
+System.out.println("weeks:"+week);
+System.out.println("days:"+day);
+}
+}
