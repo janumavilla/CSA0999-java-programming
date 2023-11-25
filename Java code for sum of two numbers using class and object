@@ -1,0 +1,27 @@
+import java.io.*;
+impoort java.util.*;
+class Hello
+{
+int x,y;
+Scanner t=new Scanner(System.in);
+void getdata()
+{
+System.out.println("Enter x and y value");
+x=t.nextInt();
+y=t.nextInt();
+}
+void display()
+{
+Sysem.out.println("Sum of two no.s"+(x+y));
+}
+}
+class name obj=new classname();
+class xyz
+{
+public static void main(String args[])
+{
+Hello h=new Hello();
+h.getdata();
+h.display();
+}
+}
